@@ -1,56 +1,256 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
-  <link rel="shortcut icon" href="favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <script>window["_GOOG_TRANS_EXT_VER"] = "1";</script>
-  <script>
-    // Check if a new cache is available on page load.
-    window.addEventListener('load', function(e) {
-
-    window.applicationCache.addEventListener('updateready', function(e) {
-    if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
-    // Browser downloaded a new app cache.
-    // Swap it in and reload the page to get the new hotness.
-    window.applicationCache.swapCache();
-    window.location.reload();
-    } else {
-    // Manifest didn't change. Nothing new to server.
-    }
-    }, false);
-
-    }, false);
-  </script>
-  <title>CampJS – An event for the JavaScript Community</title>
-  <link rel="stylesheet" href="style.css?v=2">
+<meta charset="UTF-8">
+<title>CampJS – An event for the JavaScript Community</title>
+<link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
-  <div id="preloader"></div>
-  <div id="viewbox">
-    <canvas></canvas>
+<div id="help" class="bg main">
+  <div class="content content-item">
+    <h2>CampJS IV is happening very soon!</h2>
+    <p>
+    You should review the sessions we're offering as there have been a few
+    additions and changes recently. Lots of great content, big thanks to
+    everyone presenting something.
+    </p>
+
+    <h3>Please bring</h3>
+
+    <ul>
+      <li>Computer stuff</li>
+      <li>Bathroom stuff</li>
+      <li>Warm clothes</li>
+      <li>Sleeping bag + pillow</li>
+      <li>Getting to CampJS</li>
+    </ul>
+    <h4>CampJS IV Location</h4>
+    <p>
+    <address>
+      Koonjewarre Retreat Centre
+      2806 Gold Coast-Springbrook Rd
+      Springbrook QLD 4213
+    </address>
+    </p>
+    <p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14061.194690610524!2d153.270401!3d-28.228613!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb1b3c5350f23cbd2!2sKoonjewarre+Retreat+Centre!5e0!3m2!1sen!2sau!4v1414029186167" width="400" height="300" frameborder="0" style="border:0"></iframe>
+    <a href="https://www.google.com.au/maps/place/Koonjewarre+Retreat+Centre/@-28.228613,153.270401,15z/data=!4m2!3m1!1s0x0:0xb1b3c5350f23cbd2">View Location On Google Maps</a>
+    </p>
+    <h2>Transport</h2>
+    <p>
+    You should have received an email containing a link to a spreadsheet.
+    Please use this to indicate whether you need transport to or from CampJS
+    so we can help make sure everyone is looked after. Carpool where possible!
+    </p>
+    <h3>Getting to CampJS</h3>
+    <p>
+    Free busses will get you to and from the CampJS venue. Busses will leave
+    the airport around 2pm, then swing by Varsity Lakes Train station shortly
+    thereafter. If you want to be picked up from Varsity Lakes, be there by
+    2pm.
+    </p>
+    <p>
+    The pickup point at Gold Coast Airport will be outside the International
+    Arrivals side of the airport (Marked Virgin Blue in the map below). Note
+    that Gold Coast Airport is tiny, you should not have trouble finding us.
+    For early arrivals – people will be waiting at the pub.
+    </p>
+    <p>
+    <img src="https://cloud.githubusercontent.com/assets/43438/4747031/0b066f80-5a55-11e4-87fb-3763e742ec2f.png" alt="image" style="max-width:100%;">
+    </p>
+
+    <h3>Airport Pickup Contact</h3>
+    <p>
+    TBA
+    </p>
+    <h3>Varsity Lakes Pickup Contact</h3>
+    <p>
+    TBA
+    </p>
+    <h3>Transport from CampJS</h3>
+    <p>
+    We have plans for 2 busses. The exact times of these busses will be
+    determined by the numbers on the spreadsheet. We will notify you when we
+    know. Please check back here for updates.
+    </p>
+
+    <h3>Carpooling</h3>
+    <p>
+    You may find someone willing to carpool with you. Find people with available seats or advertise them on the flights/carpooling spreadsheet.
+    </p>
+
+    <h2>CampJS Arrival/Departure Times</h2>
+    <p>
+    The camp officially starts when the bus arrives on Friday, around 4:30pm, and
+    ends Monday Morning around 9am. We are looking for volunteers to help set up on
+    Friday. Volunteers may arrive any time after midday!
+    </p>
+    <h2>Accommodation</h2>
+    <p>
+    The venue has dormitory bunk rooms. Dorms have access to toilet and
+    shower facilities via a covered walkway. Mattresses are provided, but you
+    will need to provide your own linen, blanket and pillow. You are welcome
+    to bring tents if you wish to camp!
+    </p>
+
+    <h2>Diets & Menu</h2>
+    <p>
+    Drinks, Breakfast, Morning Tea, Lunch, Afternoon Tea, Dinner and Supper
+    will be provided. Please update your ticket details if you have special
+    dietary requirements, we can accommodate both vegan and vegetarian diets.
+    </p>
+    <h3>Coffee</h3>
+    <p>
+    We're bringing some Caffitaly coffee pod machines, and we'll be supplying
+    a variety of coffee pods, but feel free to bring your own coffee devices
+    and/or pods if you have more ecclectic tastes.
+    </p>
+    <h3>Tea</h3>
+    <p>
+    We're bringing some Dilmah tea. Feel free to bring your weirdest teas.
+    </p>
+
+    <h2>Code of Conduct</h2>
+    <p>
+    CampJS attendees should read our code of conduct and know we are very
+    serious about making sure CampJS is a safe and welcoming environment for
+    everyone. We will not tolerate any sort of harassment or exclusionary
+    activities. All attendees are expected to use their most mature,
+    inclusive and least-prejudiced behaviour for the duration of the event.
+    </p>
+
+    <p>
+    If you'd like to report any issues, do not hesitate to approach either
+    Wei Lu or Tim Oxley. Alternatively, email us both at
+    codeofconduct@campjs.com.
+    </p>
+
+    <h2>THINGS TO BRING</h2>
+
+    <h4>Earplugs</h4>
+    <p>
+    I expect there to be noise late into night, and I can't guarantee people
+    won't snore. If you want to sleep well, bring earplugs. I cannot stress
+    this enough.
+    </p>
+    <p>
+    I personally sleep with earplugs every night and it is bliss for me and
+    convenient for others who can get on with their lives without worrying
+    about disturbing me. If you don't bring earplugs, I don't want to hear
+    you complaining about noise.
+    </p>
+    <h4>Warm Clothes</h4>
+    <p>
+    e.g. Jackets, Scarves, gloves, onesies. It can be pretty cold at night time.
+    </p>
+
+    <h4>Sleeping Bag + Pillow</h4>
+    <p>
+    It's going to be rather cool weather. I recommend bringing a sleeping
+    bag. Maybe pack an extra blanket just in case. If you cannot bring such
+    items please <a href="mailto:timo@campjs.com?Subject=Need%bedding"
+      target="_top">let me know</a> and we will sort something out for you.
+    </p>
+
+    <h4>Bathroom</h4>
+    <p>
+    The usual – toothbrush, shampoo, soap, talisman of purification, deodorant, etc.
+    </p>
+
+    <h4>Additional Drinks</h4>
+    <p>
+    Unlimited beer, red/white wine, a margarita machine, juice, coffee, tea
+    and soft-drink is provided courtesy of CampJS. You're welcome to bring
+    harder liquors if you so desire.
+    </p>
+    <h4>Snacks to Share</h4>
+    <p>
+    Please bring a little something and donate it to the snack pile.
+    </p>
+    <h4>Computer, Phone &amp; Associated Chargers</h4>
+    <p>
+    Power boards and cables will be available but it helps if people bring bring more. Please label them so we don't accidentally steal them.
+    </p>
+    <h4>Headphones</h4>
+    <p>
+    Music will be provided for the main hall, but if you
+    want to listen to something different, please do so from the comfort of
+    your own headphones.
+    </p>
+    <h4>Instruments</h4>
+    <p>
+    Bring 'em. Even noisy ones.
+    </p>
+    <h4>Medications</h4>
+    <p>Let's stay healthy.</p>
+
+    <h4>Warm Clothes &amp; Earplugs</h4>
+    <p>Reminder: bring warm clothes and earplugs.</p>
+
+    <h4>Tools for coping with no Internet</h4>
+    <p>
+    Plan to have zero internet. Don't plan to have even a little. Zero.
+    </p>
+
+    <p>
+    Here are some essentials you may want to install/familiarise yourself with prior to CampJS IV:
+    <p>
+    <ul>
+      <li>node/npm (<a href="http://bevry.me/learn/node-install">Installation guide by Benjamin Lupton</a>)</li>
+      <li><a href="https://github.com/dominictarr/npmd">npmd</a>(gives you a local npm repo)</li>
+      <li><a href="https://www.google.com/intl/en/chrome/browser/">Google Chrome</a></li>
+      <li>git</li>
+      <li><a href="http://mxcl.github.com/homebrew/">Homebrew</a>, if you're on OSX</li>
+      <li><a href="http://kapeli.com/">Dash</a> for OSX, great offline documentation viewer</li>
+      <li>A decent text editor. If you're not already using vim, then perhaps try
+      <a href="https://atom.io/">Atom</a>,
+      <a href="http://www.sublimetext.com/">SublimeText</a>
+      or something like <a href="http://www.jetbrains.com/webstorm/">WebStorm</a>/<a href="http://www.microsoft.com/web/webmatrix/">WebMatrix</a></li>
+      <li>Windows users probably want to dual-boot Linux</li>
+
+      <h4>Hardware to play with</h4>
+      <p>
+      If you've been playing with or building any cool hardware, bring it
+      along and show it off.
+      </p>
+
+
+      <h3>Book Swap</h3>
+      <p>
+      Look at all those books you've already read or are never going to read.
+      Give them a chance to help somebody else by bringing them along to
+      CampJS for our book swap.
+      </p>
+      <h3>#campjs</h3>
+      <p>
+      You can find CampJS in various places around the internet:
+      </p>
+      <ul>
+        <li><a href="https://twitter.com/campjsnews" target="_blank">Twitter</a><br></li>
+        <li><a href="http://campjs.slack.com/" target="_blank">Slack</a><br></li>
+        <li><a href="http://webchat.freenode.net/?channels=campjs" target="_blank">#campjs on Freenode</a><br></li>
+        <li><a href="https://plus.google.com/communities/106906604683614333625" target="_blank">Google+</a></li>
+        <li><a href="https://github.com/campJS/campjs" target="_blank">Github</a></li>
+        <li><u><a href="http://Campjs.com" target="_blank">campjs.com</a></u><br></li>
+      </ul>
+      <p>
+      If you want to make any announcements to the CampJS audience prior to
+      CampJS, tweet <a href="https://twitter.com/campjsnews">@campjsnews</a>
+      and I'll retweet it.
+      </p>
+      <h2>Sponsors</h2>
+      <p>CampJS only happens because of our sponsors</p>
+      <p>
+      <a href="http://bugherd.com/" target="_blank"><img src="/sponsors/bh-logo.png" alt="image" style="max-width:100%;"></a><br>
+      <a href="http://prismatik.com.au/" target="_blank"><img src="https://cloud.githubusercontent.com/assets/43438/4747699/76c523d2-5a60-11e4-92b7-de4fea6a93f3.png" alt="image" style="max-width:100%;"></a><br>
+      <a href="http://www.mongodb.org/" target="_blank"><img src="https://cloud.githubusercontent.com/assets/43438/4747702/838bc512-5a60-11e4-940d-61c33089eff6.png" alt="image" style="max-width:100%;"></a>
+      </p>
+    </div>
+    <footer class="content content-item">
+      <a href="/">Home</a> | <a href="/code-of-conduct.html">Code of Conduct</a> | <a href="https://twitter.com/campjsnews">Twitter</a> | <a href="https://plus.google.com/communities/106906604683614333625">G+</a> | <a href="mailto:timo@campjs.com">Contact</a>
+    </footer>
   </div>
-  <div id="main">
-    <section class="title" data-fit>
-      <header>
-        <h1 class="header">CampJS IV</h1>
-        <h2 class="header">Oct 31 — Nov 3 2014, Springbrook, Australia.</h2>
-      </header>
-      <a class="tickets" href="https://ti.to/campjs/campjs-iv/" target="_blank">Get Tickets!</a>
-    </section>
-    <!--<footer class="content content-item">-->
-      <!--<a href="/">Home</a> |  <a href="#information">Info</a> |  <a href="#talks-and-workshops">Talks &amp; Workshops</a> | <a href="mailto:timo@campjs.com">Contact</a>-->
-    <!--</footer>-->
-    <section class="promo content">
-      <iframe width="600" height="400" src="//www.youtube.com/embed/4n3UMWHQE-o" frameborder="0" allowfullscreen></iframe>
-    </section>
-    <section class="content">
-      <div class="content-item">
-        help
-      </div>
-    </section>
-  </div>
+
   </body>
-</html>
+  </html>
+
