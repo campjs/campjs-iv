@@ -201,6 +201,10 @@ body {
   color: #45413b;
 }
 
+figure .mentor-thumb {
+  margin-top: 0.3em;
+}
+
 .mentor-thumb {
   float: left;
   clear: left;
@@ -269,6 +273,14 @@ h2 a,
 h3 a,
 h4 a {
   text-decoration: none;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .content > h1 {
